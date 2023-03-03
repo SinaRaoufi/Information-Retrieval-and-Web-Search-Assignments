@@ -8,7 +8,7 @@ Each assignment has its own directory with a README file explaining the steps to
 
 
 ## Acknowledgements
-These assignments were developed as a part of the Information Retrieval and Web Search course at Bu-Ali Sina University. The course content was developed by [Muharram Mansoorizadeh](https://www.linkedin.com/in/muharram-mansoorizadeh-760a428)
+These assignments were developed as a part of the Information Retrieval and Web Search course at Bu-Ali Sina University. The course content was developed by [Prof. Muharram Mansoorizadeh](https://www.linkedin.com/in/muharram-mansoorizadeh-760a428)
 .
 
 
