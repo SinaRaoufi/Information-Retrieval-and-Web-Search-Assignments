@@ -2,7 +2,8 @@
 This repository contains my solutions to the assignments for the *Information Retrieval and Web Search* course.
 
 ## Assignment List
-**Assignment 1:** Create <ins>Term-Doc Matrix</ins> and <ins>Inverted Index</ins>, and process the given queries.
+**Assignment 0:** Examples of *search engines*.   
+**Assignment 1:** Create *Term-Doc Matrix* and *Inverted Index*, and process the given queries.
 
 Each assignment has its own directory with a README file explaining the steps to solutions.
 
