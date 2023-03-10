@@ -7,6 +7,7 @@ In each step, describe what you do in one sentence.
 **d1:** The greatest glory in living lies not in never falling, but in rising every time we fall.
 
 **d2:** The way to get started is to quit talking and begin doing.
+
 **d3:** Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.
 
 **d4:** If life were predictable it would cease to be life, and be without flavor.
@@ -124,7 +125,6 @@ A document-term matrix (DTM) is a mathematical representation of text data, wher
 | you'll        | 0  | 0  | 0  | 0  | 1  | 0  | 0  | 0  |
 | you're        | 0  | 0  | 0  | 0  | 0  | 0  | 1  | 0  |
 | your          | 0  | 0  | 1  | 0  | 0  | 1  | 0  | 0  |
-<hr>
 
 ## Inverted Index
 An inverted index is a data structure used to efficiently retrieve a set of documents that contain a given search term or keyword. It is essentially an index data structure that maps each unique term or word in a document collection to the set of documents that contain that term.
@@ -132,6 +132,7 @@ An inverted index is a data structure used to efficiently retrieve a set of docu
 In an inverted index, each term is associated with a list of documents (or document IDs) that contain that term. The index is usually constructed by first tokenizing and normalizing the text in each document, and then creating an entry in the index for each unique term that appears in the document collection.
 
 The inverted index is widely used in information retrieval systems such as search engines, where it helps to quickly identify relevant documents for a given query. Instead of searching through every document in the collection, the search engine can use the inverted index to retrieve a smaller subset of documents that contain the query terms, and then rank them based on their relevance.
+
 a [6]
 
 above [6]
@@ -309,11 +310,10 @@ you’ll [5]
 you’re [7]
 
 your [3, 6]
-<hr>
 
 ## Queries:
 
-- **q1:** Life AND Long
+- **q1:** `Life AND Long`
 
     Life -> [3, 4, 5, 7, 8]
     
@@ -321,7 +321,7 @@ your [3, 6]
 
     **result: None**
 
-- **q2:** Life OR Happy
+- **q2:** `Life OR Happy`
 
     Life -> [3, 4, 5, 7, 8]
     
@@ -329,7 +329,7 @@ your [3, 6]
 
     **result: d3, d4, d5, d7, d8**
 
-- **q3:** Life AND( Failure OR Success) AND (you OR Your)
+- **q3:** `Life AND( Failure OR Success) AND (you OR Your)`
     
     Life -> [3, 4, 5, 7, 8]
     
@@ -343,7 +343,7 @@ your [3, 6]
 
     **result: None**
 
-- **q4:** Life AND NOT(time OR talking)
+- **q4:** ‍‍‍`Life AND NOT(time OR talking)`
 
     Life -> [3, 4, 5, 7, 8]
 
